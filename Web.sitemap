@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+   <siteMapNode url="/Home.aspx" title="Site Title"  description="" >
+   <siteMapNode url="/AboutUs/About.aspx" title="About"  description="About Us Page" />
+    <siteMapNode url="/ContactUs/Contact.aspx" title="Contact"  description="Contact Us Page" />
+  <siteMapNode title="Regions"  description="Regions " >
+      <siteMapNode url="/Regions/region-ne.aspx" title="North Estern Region"  description="North Estern Region" />
+    <siteMapNode url="/Regions/region-gauteng.aspx" title="Gauteng Central Region"  description="Gauteng Central Regionn" />
+    <siteMapNode url="/Regions/region-w.aspx" title="Western Region"  description="Western Region" />
+    <siteMapNode url="/Regions/region-s.aspx" title="Southern Region"  description="Southern Region" />
+   </siteMapNode>
+  </siteMapNode>
+
+</siteMap>

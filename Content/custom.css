@@ -1,0 +1,29 @@
+/* Use this code to reduce banner height for Apps */
+/*
+.hero-new .promo-block {
+    min-height: 6.25rem;
+}
+.hero-new .background {
+	display:none;
+}
+.firefoxHeight { height: 125px; }
+*/
+/* end reduce banner code */
+
+
+/* White Expand device */
+.hero-new [class*="line-x"],
+.hero-new [class*="line-y"] {
+  background-color: white;
+}
+.hero-new .promo-block .content .line-block {
+  border-color: white;
+}
+
+/* White Expand device Text */
+.hero-new .promo-block .content .text .title {
+  color: white;
+}
+.hero-new .promo-block .content .text p {
+  color: white;
+}

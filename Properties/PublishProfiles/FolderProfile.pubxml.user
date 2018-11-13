@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\ndlovtj3\Desktop\Dev ops\testDevOps\published files</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AboutUs/About.aspx">
+      <publishTime>11/12/2018 11:48:32</publishTime>
+    </File>
+    <File Include="AboutUs/Images/banner.jpg">
+      <publishTime>11/12/2018 11:48:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.dll">
+      <publishTime>04/16/2015 03:49:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SharePoint.Client.Runtime.dll">
+      <publishTime>04/16/2015 03:49:40</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="bin/testDevOps.dll">
+      <publishTime>11/12/2018 11:54:11</publishTime>
+    </File>
+    <File Include="bin/testDevOps.pdb">
+      <publishTime>11/12/2018 11:54:11</publishTime>
+    </File>
+    <File Include="ContactUs/Contact.aspx">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="ContactUs/Images/banner.jpg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Content/custom.css">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Content/telkom-font.css">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="FindTelkom.aspx">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Bold.eot">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Bold.svg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Bold.ttf">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Bold.woff">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-BoldItalic.eot">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-BoldItalic.svg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-BoldItalic.ttf">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-BoldItalic.woff">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Light.eot">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Light.svg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Light.woff">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-LightItalic.eot">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-LightItalic.svg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-LightItalic.ttf">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-LightItalic.woff">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Regular.eot">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Regular.svg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Regular.ttf">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-Regular.woff">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-RegularItalic.eot">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-RegularItalic.svg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-RegularItalic.ttf">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="fonts/telkom-font/Telkom123-RegularItalic.woff">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Images/arrow-black.png">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Images/banner.jpg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Regions/Images/banner.jpg">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Regions/region-gauteng.aspx">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Regions/region-ne.aspx">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Regions/region-s.aspx">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Regions/region-w.aspx">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/12/2018 11:54:11</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>11/12/2018 11:48:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

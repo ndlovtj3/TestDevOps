@@ -1,0 +1,285 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="testDevOps.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <title></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <link href="http://www.telkom.co.za/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Content/telkom-font.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="http://spsmigratetest.telkom.co.za/sites/GraphicDev/Elements/Centralized_Design/_css/global-navigation-Telkom.css" rel="stylesheet" type="text/css" />
+
+    <link href="http://spsmigratetest.telkom.co.za/sites/GraphicDev/Elements/Centralized_Design/_css/global-footer-Telkom.css" rel="stylesheet" type="text/css" />
+
+    <link href="http://spsmigratetest.telkom.co.za/sites/GraphicDev/Elements/Centralized_Design/_css/global-styling-Telkom.css" rel="stylesheet" type="text/css" />
+    
+    <link href="~/Content/custom.css" rel="stylesheet" />
+  <script>
+
+      function RouteToSearch(Search) {
+          window.location.href = "http://telkomintranet.telkom.co.za/_layouts/15/osssearchresults.aspx?k=" + Search;
+      }
+
+      function handle(e) {
+          if (e.keyCode === 13) {
+              RouteToSearch($('#txtSearch').val()); /*If Enter Key was pressed*/
+          }
+          return false;
+      }
+
+</script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <header>
+         <!--[if lte IE 8]>
+         <div class="alert alert-blue" role="alert">
+         <div class="logo"> <img src="http://telkomintranet.telkom.co.za/Elements/Centralized_Design/_images/logo.png" alt="Logo" /> </div>
+         <h4>Warning! You are using an outdated internet browser!</h4>
+         <p>Please upgrade your internet browser to IE version 11 to access internal websites.</p>
+         <p>Request Google Chrome browser if you require an older version of IE for legacy applications.</p>
+         <p>
+           <a href="http://telkomintranet.telkom.co.za/Pages/ServiceDesk.aspx" class="btn btn-danger" role="button">
+             Contact Service Desk here for assistance <i class="glyphicon glyphicon-triangle-right"></i>
+           </a>
+         </p>
+       </div>
+     <![endif]-->
+        <%--Global Navigation Start--%>
+        <section class="container-fluid noPadding">
+        <div class="logo"> <a href="http://telkomintranet.telkom.co.za/Pages/default.aspx"> <img id="logoImage" src="http://telkomintranet.telkom.co.za/Elements/Centralized_Design/_images/logo.png" alt="Telkom Logo" /> </a> </div>
+        <nav class="navbar navbar-default menu">
+          <div class="navbar-collapse" id="Nav">
+            <ul class="visible-sm visible-md visible-lg nav navbar-nav" id="GlobalNav" runat="server">                
+           
+            </ul>
+            <div class="burgerMenu"> <i class="glyphicon glyphicon-menu-hamburger"> </i> </div>
+            <div class="menu-expand">
+              <ul id="HamBurgerMenu" runat="server">
+                <!-- this is for when it goes to mobile view -->
+               <li class="visible-xs"> <a href="http://telkomintranet.telkom.co.za/articles/default.aspx">News Centre</a> </li>
+                <li class="visible-xs"> <a href="http://sapportal.telkom.co.za">SAP - Self Service Portal</a> </li>
+                <li class="visible-xs">
+                  <div class="findTelkom_site ui-widget">
+                    <label>Find a Site</label>
+                    <input type="text" class="text findTelkom_siteInput sites" value="Start typing here to search for a site..." />
+                    <p class="empty"></p>
+                  </div>
+                </li>
+                <hr class="visible-xs">
+                <!-- the top menu disappears and it goes into the BigMac Menu (burger menu) -->
+                
+              </ul>     
+            </div>
+          </div>
+        </nav>
+        </section>
+        <%--Global Navigation End--%>
+        <div class="blacked-out"> </div>      
+
+        <%--Banner Start--%>
+        <section class="hero-new center-content" data-line-position="top-left" data-layout="image-right, centered, background-image">
+        <div class="background">
+        <img src="Images/banner.jpg" alt="" />
+        </div>
+        <div class="foreground">
+        <div class="wrapper">
+             <script type="text/javascript">
+                 if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) { document.write("<div class='firefoxHeight'>"); }
+                </script>
+            <div class="promo-block">
+                <div class="focal-point"></div> <!-- /.focal-point -->
+                <div class="content">
+                    <div class="line-block">
+                        <div class="text">
+                            <h1 class="title">Website title can go here</h1>
+                            <p>A division of sub title can go here</p>
+                        </div>
+                        <div class="lines-top-left">
+                            <div class="line-x-inner"></div>
+                            <div class="line-x-outer"></div>
+                            <div class="line-y-inner"></div>
+                            <div class="line-y-outer"></div>
+                        </div>
+                        <div class="lines-top-right">
+                            <div class="line-x-inner"></div>
+                            <div class="line-x-outer"></div>
+                            <div class="line-y-inner"></div>
+                            <div class="line-y-outer"></div>
+                        </div>
+                        <div class="lines-bottom-left">
+                            <div class="line-x-inner"></div>
+                            <div class="line-x-outer"></div>
+                            <div class="line-y-inner"></div>
+                            <div class="line-y-outer"></div>
+                        </div>
+                        <div class="lines-bottom-right">
+                            <div class="line-x-inner"></div>
+                            <div class="line-x-outer"></div>
+                            <div class="line-y-inner"></div>
+                            <div class="line-y-outer"></div>
+                        </div>
+                    </div> <!-- /.line-block -->
+                </div> <!-- /.content -->
+            </div> <!-- /.promo-block -->
+        </div> <!-- /.wrapper -->
+        </div>
+        </section>             
+        <%--Banner End--%>  
+    </header>  
+
+      <%--Navigation Starts--%>            
+    <nav class="navbar navbar-default">
+    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="nav navbar-nav" id="navBar">
+            <li><a href="/Home.aspx">Home</a></li>
+            <li><a href="/AboutUs/About.aspx">About</a></li>
+            <li><a href="/ContactUs/Contact.aspx">Contact</a></li>
+            <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Regions <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="/Regions/region-ne.aspx">North Eastern Region</a></li>
+                    <li><a href="/Regions/region-gauteng.aspx">Gauteng Central Region</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/Regions/region-w.aspx">Western Region</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/Regions/region-s.aspx">Southern Region</a></li>
+                    
+                    
+                </ul>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+    <section class="container">
+    <div class="col-xs-12">
+        <ol class="breadcrumb">
+            <li><a href="http://telkomintranet.telkom.co.za/Pages/default.aspx">Intranet</a></li>
+            <li><a href="http://spsmigratetest.telkom.co.za/sites/TelkomBusiness/home">Enterprise</a></li>
+          <%--  <li><a href="/Home.aspx">Site Title</a></li>--%>
+             <asp:SiteMapPath ID="SiteMapPath1" Runat="server"  PathSeparator=""  >
+                <PathSeparatorStyle CssClass="hidden" />
+                </asp:SiteMapPath>
+        </ol>
+    </div>
+    </section>
+    <%--Navigation End--%>  
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+   <%--Footer Start--%>
+         <footer> 
+            <span id="Footer" runat="server"></span>
+          </footer>
+    <%--Footer End--%>
+    </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+<script src="http://spsmigratetest.telkom.co.za/sites/GraphicDev/Elements/Centralized_Design/_js/jquery.min.js"></script>
+<script src="http://spsmigratetest.telkom.co.za/sites/GraphicDev/Elements/Centralized_Design/_js/jquery-ui.min.js"></script>
+<!-- Import JS files needed for the sites functionality.-->
+<script src="http://spsmigratetest.telkom.co.za/sites/GraphicDev/Elements/Centralized_Design/_js/bootstrap.min.js"></script>
+<script src="http://spsmigratetest.telkom.co.za/sites/GraphicDev/Elements/Centralized_Design/_js/global-nav-js.js"></script>
+<script src="http://spsmigratetest.telkom.co.za/sites/GraphicDev/Elements/Centralized_Design/_js/JS_dotNet_Central.js"></script>
+<!-- Custom JS code for this site -->
+    
+         <script type="text/javascript">
+
+
+
+             jQuery.support.cors = true;
+             $(document).ready(function () {
+
+                 $('.navbar-nav>li').on('click', function () {
+
+                     $(this).addClass('line-block');
+
+                 });
+
+                 $(".sites").autocomplete({
+
+                     source: function (request, response) {
+                         $.ajax({
+                             url: "/FindTelkom.aspx/SearchData",
+
+                             data: "{'search':'" + $(".sites").val() + "'}",
+                             // data: "{'search':'Telkom'}",
+                             dataType: "json",
+                             type: "POST",
+                             contentType: "application/json; charset=utf-8",
+                             dataFilter: function (data) { return data; },
+                             success: function (data) {
+                                 if (data.d == "") {
+                                     $(".empty").show();
+                                     $(".empty").html("<a href='http://telkomintranet.telkom.co.za/Pages/Webmaster.aspx'>Can't find your site? Click here to let us know.</span>");
+
+                                     //  $('.empty').mouseout(function () { $('.empty').hide(); })
+
+                                     $(".empty").on("mouseleave", function () {
+                                         $('.empty').hide();
+                                     });
+
+                                 } else {
+
+                                     $(".empty").hide();
+                                 }
+
+                                 response($.map(data.d, function (item) {
+
+                                     return {
+                                         label: item.title,
+                                         value: item.url
+                                     }
+
+                                 }))
+
+                             },
+                             error: function (error) {
+
+                                 alert(JSON.stringify(error));
+                             }
+
+                         });
+                     },
+
+                     select: function (event, ui, item) {
+                         $(".sites").val(ui.item.label)
+                         var str = ui.item.value;
+                         var splits = str.split(', ', 1);
+                         window.open(splits, '_blank')
+                         return false;
+                     },
+
+                     focus: function (event, ui, item) {
+                         $(".sites").val(ui.item.label)
+                         return false;
+                     }
+                 });
+             });
+
+</script>
+    </form>
+</body>
+</html>
